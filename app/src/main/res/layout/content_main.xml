@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    tools:context="com.woc.chaizi.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:hint="输入源字符串"
+        android:gravity="top"
+        android:lines="5" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拆字"
+        android:id="@+id/button"
+        android:onClick="buttonClick"
+        android:layout_below="@+id/editText1"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/button"
+        android:gravity="top"
+        android:layout_centerHorizontal="true"
+        android:hint="结果"
+        android:lines="5" />
+</RelativeLayout>

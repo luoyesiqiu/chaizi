@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<EditTextPreference
+    android:title="设置空格数量"
+    android:summary="拆完一个字补上空格的数量"
+    android:defaultValue="0"
+    android:key="space_count"
+    android:id="@+id/space_count">
+
+</EditTextPreference>
+
+    <Preference
+        android:title="作者信息"
+        android:summary="卧槽工作室·落叶">
+
+    </Preference>
+</PreferenceScreen>

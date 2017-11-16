@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.woc.chaizi.MainActivity">
+<item android:id="@+id/menu_setting" android:title="设置">
+
+</item>
+    <item android:id="@+id/menu_group" android:title="入群反馈">
+
+    </item>
+</menu>
